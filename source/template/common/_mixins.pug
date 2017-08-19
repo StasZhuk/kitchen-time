@@ -1,6 +1,6 @@
 //- nav menu mixin
-mixin nav (className, items, activeItem)
-    #{className}(class=`${className} ${className}__main` id=`main-${className}`)
+mixin nav (className, items, activeItem, mod)
+    #{className}(class=`${className} ${mod}`)
             ul(class=`${className}__list list`)
                 each href, title in items
                     if (title == activeItem) 

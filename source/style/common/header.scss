@@ -1,0 +1,143 @@
+.header {
+    width: 100%;
+    background-color: rgba($header-bg, 0.9);
+    
+    a {
+        color: $white;
+    }
+
+    .icon {
+        fill: $white;
+    }
+
+    .row__header-top {
+        padding: 30px 0;
+    }
+}
+.header__top {
+    width: 100%;
+}
+
+.header__logo-wrap {
+    @include col-3();
+}
+
+.header__logo {
+    width: 250px;
+    height: 90px;
+    background: url(../img/icons/main-logo.png) no-repeat center;
+    background-size: contain;
+}
+
+.header-nav__wrap {
+    @include col-9();
+    display: flex;
+}
+
+.header-nav {
+    width: 100%;
+}
+
+.header-nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    a {
+        color: $white;
+    }
+
+    li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.header-nav__list-user {
+    flex-direction: row;
+    align-items: flex-end;
+
+    li {
+        margin-right: 30px;
+    }
+    li:last-child {
+        margin-right: 0;
+    }
+
+    svg {
+        margin-bottom: 10px;
+    }
+}
+
+.header-nav__item--action {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-nav__link {
+    display: inline-block;
+    border-bottom: 1px solid rgba($white, 0.7);
+}
+
+.header-nav__link--dotted {
+    border-bottom: 1px dotted rgba($white, 0.7);
+}
+
+.header-nav__user-action {
+    position: relative;
+    span {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        top: 0;
+        left: 100%;
+        transform: translate(-60%, -40%);
+        background-color: $acsent;
+        border-radius: 50%;
+        font-size: 1.3rem;
+        text-align: center;
+        line-height: 25px;
+        color: $white;
+        
+    }
+}
+
+.nav-item__phone {
+    font-size: 2rem;
+
+    .header-nav__link {
+        text-decoration: none;
+    }
+}
+
+.nav__anchorn {
+    .nav__list {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.header-nav__user-action {
+    text-align: center;
+}
+
+.icon--nav {
+    @include elem-size(15px);
+    margin-right: 10px;
+}
+
+.icon--user-action {
+    @include elem-size(40px);
+}
+
+.icon-magnifier  {
+    @include elem-size(30px);
+}
+
+.header__line {
+    margin: 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgba($white, 0.3);
+    border: none;
+    display: block;
+}

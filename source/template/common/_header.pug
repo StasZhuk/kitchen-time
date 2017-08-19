@@ -1,2 +1,47 @@
 header.header
-    +nav("nav", nav.headerNav, "О компании" )
+    .header__top
+        .container
+            .row.row__header-top
+                .col.header__logo-wrap
+                    .header__logo
+                .col.header-nav__wrap
+                    .row.header-nav
+                        ul.col.header-nav__list
+                            each object in nav.headerNavContact
+                                if object['title'] == "8 800 300-12-43" 
+                                    li.nav-item__phone.header-nav__item 
+                                        a(href= object['link'] class="header-nav__link")= object['title'] 
+                                else if object['title'] == "Обратный звонок"
+                                    li.header-nav__item 
+                                        a(href= object['link'] class="header-nav__link header-nav__link--dotted")= object['title'] 
+                                else    
+                                    li.header-nav__item
+                                        a(href= object['link'] class="header-nav__link")= object['title'] 
+                        ul.col.header-nav__list
+                            each object in nav.headerNavDelivery
+                                li.header-nav__item
+                                    +icon(object['icon'], 'icon--nav')
+                                        span 12
+                                    a(href= object['link'] class="header-nav__link")= object['title']
+                    
+                        ul.col.header-nav__list
+                            each object in nav.headerNavUserBlock
+                                li.header-nav__item
+                                    +icon(object['icon'], 'icon--nav')
+                                        span 12
+                                    if (object['title'] === "Войти" || object['title'] === "Санкт-Петербург")
+                                        a(href= object['link'] class="header-nav__link header-nav__link--dotted")= object['title'] 
+                                    else
+                                        a(href= object['link'] class="header-nav__link")= object['title']
+                                        
+                        ul.col.header-nav__list.header-nav__list-user
+                            each object in nav.headerNavUserAction
+                                li.header-nav__item--action
+                                    .header-nav__user-action
+                                        +icon(object['icon'], 'icon--user-action header-nav__link-action')
+                                        span 12
+                                    a(href= object['link'] class="header-nav__link")= object['title']
+                                        
+            hr.header__line
+            
+            include _menu

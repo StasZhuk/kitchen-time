@@ -77,3 +77,19 @@ svg {
 section {
     position: relative;
 }
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    @include row-flex();
+    justify-content: space-between;
+}
+
+.col {
+    @include col();
+}

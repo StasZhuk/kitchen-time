@@ -1,0 +1,21 @@
+.nav-main {
+    display: flex;
+}
+.nav-main__list {
+    flex: 1;
+    align-content: center;
+}
+
+.nav-main__search {
+    margin-left: 20px;
+}
+
+.nav-main__link {
+    display: block;
+    height: 100%;
+    padding: 10px 0;
+    line-height: 30px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: "robotobold";
+}

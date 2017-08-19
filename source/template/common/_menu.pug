@@ -1,0 +1,21 @@
+-
+    var menu = {
+        "мебель" : "#",
+        "бытовая техника" : "#",
+        "хранение вина" : "#",
+        "посуда" : "#",
+        "ножки" : "#",
+        "бар и хрусталь" : "#",
+        "сервировка" : "#",
+        "кухонная утварь" : "#",
+        "текстиль" : "#"
+    }
+
+.nav.nav-main
+    ul.row.nav-main__list
+        each href, title in menu
+            li.col.nav-main__item
+                a(href= href).nav-main__link= title
+    .nav-main__search
+        a(href="#").nav-main__link
+            +icon("magnifier")

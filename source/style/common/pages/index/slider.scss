@@ -1,0 +1,12 @@
+.index-slider {
+    position: relative;
+    img {
+        width: 100%;
+    }
+    .slick-arrow {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
