@@ -1,3 +1,13 @@
+.index-page {
+    .header {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;   
+    }
+}
+
 .header {
     width: 100%;
     background-color: rgba($header-bg, 0.9);

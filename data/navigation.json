@@ -1,0 +1,78 @@
+{
+    "headerNavContact" : {
+        "phone" : {
+            "title" : "8 800 300-12-43",
+            "link" : "javascript:void(0)"
+        },
+        "backCall" : {
+            "title" : "Обратный звонок",
+            "link" : "javascript:void(0)"
+        },
+        "userInfo" : {
+            "title" : "адреса салонов",
+            "link" : "javascript:void(0)"
+        }
+    },
+    "headerNavDelivery" : {
+        "contact" : {
+            "title" : "как заказать",
+            "link" : "javascript:void(0)",
+            "icon" : "basket-2"
+        },
+        "deliver" : {
+            "title" : "оплата",
+            "link" : "javascript:void(0)",
+            "icon" : "credit-card"
+        },
+        "userInfo" : {
+            "title" : "доставка",
+            "link" : "javascript:void(0)",
+            "icon" : "delivery"
+        }
+    },
+    "headerNavUserBlock" : {
+        "map" : {
+            "title" : "Санкт-Петербург",
+            "link" : "javascript:void(0)",
+            "icon" : "search"
+        },
+        "login" : {
+            "title" : "Войти",
+            "link" : "javascript:void(0)",
+            "icon" : "user"
+        },
+        "registr" : {
+            "title" : "зарегистрироваться",
+            "link" : "javascript:void(0)",
+            "icon" : "mark"
+        }
+    },
+    "headerNavUserAction" : {
+        "analog" : {
+            "title" : "Сравнение",
+            "link" : "javascript:void(0)",
+            "icon" : "eye"
+        },
+        "favorite" : {
+            "title" : "Войти",
+            "link" : "javascript:void(0)",
+            "icon" : "favorite"
+        },
+        "userBasket" : {
+            "title" : "Корзина",
+            "link" : "javascript:void(0)",
+            "icon" : "basket-1"
+        }
+    },
+    "navHeaderNavigation" : {
+        "мебель" : "#",
+        "бытовая техника" : "#",
+        "хранение вина" : "#",
+        "посуда" : "#",
+        "ножки" : "#",
+        "бар и хрусталь" : "#",
+        "сервировка" : "#",
+        "кухонная утварь" : "#",
+        "текстиль" : "#"
+    }
+}

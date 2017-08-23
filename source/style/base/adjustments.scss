@@ -83,6 +83,7 @@ section {
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
+    @include wrapper();
 }
 
 .row {
@@ -92,4 +93,16 @@ section {
 
 .col {
     @include col();
+}
+
+.btn {
+    $height: 50px;
+    display: inline-block;
+    height: $height;
+    line-height: $height;
+    padding: 0px 20px;
+    background-color: $white;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
 }

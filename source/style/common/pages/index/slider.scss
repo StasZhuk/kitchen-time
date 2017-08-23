@@ -1,12 +1,127 @@
 .index-slider {
     position: relative;
+    max-height: 800px;
     img {
         width: 100%;
+        max-height: 800px;
     }
-    .slick-arrow {
-        z-index: 2;
-        position: absolute;
-        top: 0;
-        left: 0;
+}
+
+.index-slider__controls {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.index-slider__arrow {
+    position: relative;
+    background-color: $white;
+    border: 1px solid $black;
+    @include elem-size(50px);
+    cursor: pointer;
+    .icon {
+        @include absolute-center();
+        @include elem-size(21px, 17px);
     }
+}
+
+.index-slider__arrow-prev {
+    transform: rotate(180deg);
+}
+
+.slick-dots {
+    z-index: 2;
+    position: absolute;
+    left: 100px;
+    top: 60%;
+    transform: translateY(-50%);
+    li {
+        margin-bottom: 5px;
+    }
+    li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.index-slider__dots {
+    display: block;
+    @include elem-size(16px);
+    border: 2px solid $white;
+    border-radius: 50%;
+}
+
+.slick-active a {
+    background-color: $white;
+}
+
+.index-slider__item {
+    position: relative;
+}
+
+.index-slider__content {
+    width: 100%;
+    max-width: 800px;
+    position: absolute;
+    left: 50%;
+    top: 250px;
+    transform: translateX(-50%);
+}
+
+.index-slider__title {
+    display: block;
+    font-family: $mediumFont;
+    font-size: 7.2rem;
+    line-height: 80px;
+    color: $white;
+    margin-bottom: 50px;
+}
+
+.slider-product-info {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.slider-product-info__item {
+    margin-right: 70px;
+
+
+    &::last-child {
+        margin-right: 0;
+    }
+}
+
+.slider-product-info__title {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: $sandColor;
+}
+
+.slider-product-info__line {
+    display: flex;
+    align-items: center;
+    color: $white;
+    margin-bottom: 5px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .icon {
+        @include elem-size(30px);
+        fill: $white;
+        margin-right: 20px;
+    }
+}
+
+.slider-product-info__color {
+    margin-right: 20px; 
+}
+
+.product-color {
+    @include elem-size(30px);
+    border-radius: 50%;
 }

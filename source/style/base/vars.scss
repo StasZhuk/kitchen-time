@@ -1,5 +1,6 @@
 // fonts
 $main-font: "robotoregular", sans-serif;
+$mediumFont: "robotomedium", sans-serif;
 
 // text-size
 $text-size_main: 16px;
@@ -7,12 +8,16 @@ $text-size_h1: 63px;
 $text-size_h2: 35px;
 $text-size_h3: 28px;
 
+// width
+
+$desktop_width: 1140px;
 
 // colors
 $acsent: #FB3E13;
 $acsent-hov: #043ea3;
 $white: #fff;
 $black: #000;
+$sandColor: #d09f74;
 
 // bg colors
 $header-bg: #131214;

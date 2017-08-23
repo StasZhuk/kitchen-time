@@ -1,0 +1,78 @@
+{
+    "slide1" : {
+        "title" : {
+            "line1" : "Чугунная",
+            "line2" : "кастрюля Staub1"
+        },
+        "alt" : "Слайд1 Index page",
+        "image" : "slider-1.jpg",
+        "colorsTitle" : "Цвета",
+        "colors" : {
+            "black" : {
+                "title" : "Черный",
+                "code" : "#000000"
+            },
+            "cherry" : {
+                "title" : "Вишневый",
+                "code" : "#d93639"
+            },
+            "grey" : {
+                "title" : "Серый графит",
+                "code" : "#9a988c"
+            }
+        },
+        "parameteresTitle" : "Параметры",
+        "parameteres" : {
+            "diameter" : {
+                "value" : "30 см",
+                "icon" : "diameter"
+            },
+            "amount" : {
+                "value" : "8.35 л",
+                "icon" : "amount"
+            }
+        },
+        "btn" : {
+            "href" : "javascript:void(0)",
+            "title" : "О кастрюле"
+        }
+    },
+    "slide2" : {
+        "title" : {
+            "line1" : "Чугунная",
+            "line2" : "кастрюля Staub2"
+        },
+        "alt" : "Слайд2 Index page",
+        "image" : "slider-2.jpg",
+        "colorsTitle" : "Цвета",
+        "colors" : {
+            "black" : {
+                "title" : "Черный",
+                "code" : "#000000"
+            },
+            "cherry" : {
+                "title" : "Вишневый",
+                "code" : "#d93639"
+            },
+            "grey" : {
+                "title" : "Серый графит",
+                "code" : "#9a988c"
+            }
+        },
+        "parameteresTitle" : "Параметры",
+        "parameteres" : {
+            "diameter" : {
+                "value" : "30 см",
+                "icon" : "diameter"
+            },
+            "amount" : {
+                "value" : "8.35 л",
+                "icon" : "amount"
+            }
+        },
+        "btn" : {
+            "href" : "javascript:void(0)",
+            "title" : "О кастрюле"
+        }
+    }
+}

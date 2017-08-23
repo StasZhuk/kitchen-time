@@ -13,7 +13,7 @@
     <script src="/assets/js/index.js" defer></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
-  <body>
+  <body class="index-page">
     <div class="main__wrapper">
       <header class="header">
         <div class="header__top">
@@ -111,10 +111,77 @@
         </div>
       </header>
       <section class="index-slider">
+        <div class="index-slider__controls">
+          <div class="index-slider__arrow index-slider__arrow-prev">
+            <svg class="icon icon-down-arrow ">
+              <use xlink:href="/assets/img/sprite/sprite.svg#down-arrow"></use>
+            </svg>
+          </div>
+          <div class="index-slider__arrow index-slider__arrow-next">
+            <svg class="icon icon-down-arrow ">
+              <use xlink:href="/assets/img/sprite/sprite.svg#down-arrow"></use>
+            </svg>
+          </div>
+        </div>
         <div class="js-index-slider">
-          <div class="index-slider__irem"><img src="./assets/img/header/header-bg.jpg"></div>
-          <div class="index-slider__irem"><img src="./assets/img/header/header-bg.jpg"></div>
-          <div class="index-slider__irem"><img src="./assets/img/header/header-bg.jpg"></div>
+          <div class="index-slider__item"><img class="index-slider__img" src="./assets/img/index/slider/slider-1.jpg" object.image alt="Слайд1 Index page">
+            <div class="index-slider__content"><span class="index-slider__title">Чугунная<br>кастрюля Staub1</span>
+              <div class="slider-product-info">
+                <div class="product-colors slider-product-info__item"><span class="slider-product-info__title">Цвета</span>
+                  <div class="slider-product-info__line">
+                    <div class="product-color slider-product-info__color" style="background-color: #000000;"></div><span>Черный</span>
+                  </div>
+                  <div class="slider-product-info__line">
+                    <div class="product-color slider-product-info__color" style="background-color: #d93639;"></div><span>Вишневый</span>
+                  </div>
+                  <div class="slider-product-info__line">
+                    <div class="product-color slider-product-info__color" style="background-color: #9a988c;"></div><span>Серый графит</span>
+                  </div>
+                </div>
+                <div class="product-params slider-product-info__item"><span class="slider-product-info__title">Параметры</span>
+                  <div class="slider-product-info__line">
+                    <svg class="icon icon-diameter ">
+                      <use xlink:href="/assets/img/sprite/sprite.svg#diameter"></use>
+                    </svg><span>30 см</span>
+                  </div>
+                  <div class="slider-product-info__line">
+                    <svg class="icon icon-amount ">
+                      <use xlink:href="/assets/img/sprite/sprite.svg#amount"></use>
+                    </svg><span>8.35 л</span>
+                  </div>
+                </div>
+              </div><a class="btn btn-g" href="javascript:void(0)">О кастрюле</a>
+            </div>
+          </div>
+          <div class="index-slider__item"><img class="index-slider__img" src="./assets/img/index/slider/slider-2.jpg" object.image alt="Слайд2 Index page">
+            <div class="index-slider__content"><span class="index-slider__title">Чугунная<br>кастрюля Staub2</span>
+              <div class="slider-product-info">
+                <div class="product-colors slider-product-info__item"><span class="slider-product-info__title">Цвета</span>
+                  <div class="slider-product-info__line">
+                    <div class="product-color slider-product-info__color" style="background-color: #000000;"></div><span>Черный</span>
+                  </div>
+                  <div class="slider-product-info__line">
+                    <div class="product-color slider-product-info__color" style="background-color: #d93639;"></div><span>Вишневый</span>
+                  </div>
+                  <div class="slider-product-info__line">
+                    <div class="product-color slider-product-info__color" style="background-color: #9a988c;"></div><span>Серый графит</span>
+                  </div>
+                </div>
+                <div class="product-params slider-product-info__item"><span class="slider-product-info__title">Параметры</span>
+                  <div class="slider-product-info__line">
+                    <svg class="icon icon-diameter ">
+                      <use xlink:href="/assets/img/sprite/sprite.svg#diameter"></use>
+                    </svg><span>30 см</span>
+                  </div>
+                  <div class="slider-product-info__line">
+                    <svg class="icon icon-amount ">
+                      <use xlink:href="/assets/img/sprite/sprite.svg#amount"></use>
+                    </svg><span>8.35 л</span>
+                  </div>
+                </div>
+              </div><a class="btn btn-g" href="javascript:void(0)">О кастрюле</a>
+            </div>
+          </div>
         </div>
       </section>
       <footer class="footer"></footer>

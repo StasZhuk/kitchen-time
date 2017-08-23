@@ -1,8 +1,31 @@
 section.index-slider
+    .index-slider__controls
+        .index-slider__arrow.index-slider__arrow-prev
+            +icon('down-arrow')
+        .index-slider__arrow.index-slider__arrow-next
+            +icon('down-arrow')
     .js-index-slider
-        .index-slider__irem
-            img(src="./assets/img/header/header-bg.jpg")
-        .index-slider__irem
-            img(src="./assets/img/header/header-bg.jpg")
-        .index-slider__irem
-            img(src="./assets/img/header/header-bg.jpg")
+        each object in indexSlider
+            .index-slider__item
+                img(src=`./assets/img/index/slider/${object['image']}` object.image alt= object.alt).index-slider__img
+                .index-slider__content
+                    if(object.title['line2'])
+                        span.index-slider__title= object.title['line1']
+                            br
+                            | #{object.title['line2']}
+                    else
+                        span.index-slider__title= object.title['line1']
+                    .slider-product-info
+                        .product-colors.slider-product-info__item
+                            span.slider-product-info__title= object['colorsTitle']
+                            each color in object.colors
+                                .slider-product-info__line
+                                    .product-color.slider-product-info__color(style=`background-color: ${color['code']}`)
+                                    span= color['title']
+                        .product-params.slider-product-info__item
+                            span.slider-product-info__title= object['parameteresTitle']
+                            each param in object.parameteres
+                                .slider-product-info__line
+                                    +icon(param['icon'])
+                                    span= param['value']
+                    a.btn.btn-g(href= object.btn['href'])= object.btn['title']
