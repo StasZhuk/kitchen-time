@@ -10,6 +10,7 @@ module.exports = function() {
                 customPaging : function() {
                     return '<a class="index-slider__dots"></a>';
                 },
+                vertical: true,
                 prevArrow: ".index-slider__arrow-prev",
                 nextArrow: ".index-slider__arrow-next"
             });
@@ -22,10 +23,13 @@ module.exports = function() {
 
                 $('.index-slider ' + elem).css(pos, leftPosDots);
             }
-
+            // Positioner dots slider in index page
             indexSliderPosElem('.slick-dots', 'left');
+
+            // Positioner arrow slider in index page
             indexSliderPosElem('.index-slider__controls', 'right');
             
+            // change size on browser window resize
             $(window).resize(function(){
                 indexSliderPosElem('.slick-dots', 'left');
                 indexSliderPosElem('.index-slider__controls', 'right');           
