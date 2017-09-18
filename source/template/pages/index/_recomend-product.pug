@@ -1,0 +1,39 @@
+section.recommended
+    .container
+        h2.section__heading Рекомендуемые товары
+        .recommended-slider
+            .js-recommended-slider
+                each product in productPrev
+                    .product-prev-item
+                        img(src= `assets/img/index/products${product['ImgHref']}`).product-prev__image
+                        a(href="javascript:void(0);").product-prev__heading= product['heading']
+                        .product-prev__description
+                            each info in product.info
+                                .product-prev__desc-cat
+                                    span.product-prev__key= info['key']
+                                    span.product-prev__val= info['val']
+                        .product-prev__price
+                            span.product-prev__coast= product['price']
+                                i(class="fa fa-rub" aria-hidden="true")
+                            if (product.avialiability === "true")
+                                span.product-prev__presence
+                                    i(class="fa fa-check" aria-hidden="true")
+                                    | Есть в наличии
+                            else
+                                span.product-prev__presence
+                                    i(class="fa fa-clock-o " aria-hidden="true")
+                                    | Под заказ
+                        .product-prev__action
+                            span.product-prev__favorites 
+                                i(class="fa fa-heart-o" aria-hidden="true")
+                                | В избранное
+                            span.product-prev__compares
+                                i(class="fa fa-balance-scale " aria-hidden="true")
+                                | Сравнить
+                        a(href="javascript:void(0);").btn.btn__product-prev В корзину 
+            .recommended-slider__dots
+                    .recommended-slider__arrow.recommended-slider__arrow-prev
+                        +icon('down-arrow')
+                    .recommended-slider__arrow.recommended-slider__arrow-next
+                        +icon('down-arrow')
+

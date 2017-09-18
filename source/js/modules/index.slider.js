@@ -15,6 +15,19 @@ module.exports = function() {
                 nextArrow: ".index-slider__arrow-next"
             });
 
+            // RECOMMENDED SlIDER
+            $('.js-recommended-slider').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: true,
+                appendDots: '.recommended-slider__dots',
+                customPaging : function() {
+                    return '<a class="recommended-slider__dot"></a>';
+                },
+                prevArrow: ".recommended-slider__arrow-prev",
+                nextArrow: ".recommended-slider__arrow-next"
+            });
+
             // DOTS SLIDER POSITIONER
             function indexSliderPosElem(elem, pos) {
                 var windowWidth = $(window).width();

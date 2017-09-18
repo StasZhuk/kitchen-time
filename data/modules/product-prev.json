@@ -1,0 +1,194 @@
+{
+    "product-1" : {
+        "heading" : "Набор бокалов для красного вина серия Frau, SCHOTT ZWIESEL",
+        "ImgHref" : "/product-1/prev.jpg",
+        "price" : "635",
+        "avialiability" : "true",
+        "info" : {
+            "material" : {
+                "key" : "материал:",
+                "val" : "хрустальное стекло"
+            },
+            "height" : {
+                "key" : "высота:",
+                "val" : "22.9 см"
+            },
+            "diameter" : {
+                "key" : "диаметр:",
+                "val" : "9.1 см"
+            },
+            "appointment" : {
+                "key" : "назначение:",
+                "val" : "для красного вина"
+            }
+        }
+    },
+    "product-2" : {
+        "heading" : "Набор бокалов для красного вина серия Frau, SCHOTT ZWIESEL",
+        "ImgHref" : "/product-2/prev.jpg",
+        "price" : "635",
+        "avialiability" : "false",
+        "info" : {
+            "material" : {
+                "key" : "материал:",
+                "val" : "хрустальное стекло"
+            },
+            "height" : {
+                "key" : "высота:",
+                "val" : "22.9 см"
+            },
+            "diameter" : {
+                "key" : "диаметр:",
+                "val" : "9.1 см"
+            },
+            "appointment" : {
+                "key" : "назначение:",
+                "val" : "для красного вина"
+            }
+        }
+    },
+    "product-3" : {
+        "heading" : "Набор бокалов для красного вина серия Frau, SCHOTT ZWIESEL",
+        "ImgHref" : "/product-3/prev.jpg",
+        "price" : "635",
+        "avialiability" : "true",
+        "info" : {
+            "material" : {
+                "key" : "материал:",
+                "val" : "хрустальное стекло"
+            },
+            "height" : {
+                "key" : "высота:",
+                "val" : "22.9 см"
+            },
+            "diameter" : {
+                "key" : "диаметр:",
+                "val" : "9.1 см"
+            },
+            "appointment" : {
+                "key" : "назначение:",
+                "val" : "для красного вина"
+            }
+        }
+    },
+    "product-4" : {
+        "heading" : "Набор бокалов для красного вина серия Frau, SCHOTT ZWIESEL",
+        "ImgHref" : "/product-4/prev.jpeg",
+        "price" : "635",
+        "avialiability" : "true",
+        "info" : {
+            "material" : {
+                "key" : "материал:",
+                "val" : "хрустальное стекло"
+            },
+            "height" : {
+                "key" : "высота:",
+                "val" : "22.9 см"
+            },
+            "diameter" : {
+                "key" : "диаметр:",
+                "val" : "9.1 см"
+            },
+            "appointment" : {
+                "key" : "назначение:",
+                "val" : "для красного вина"
+            }
+        }
+    },
+    "product-5" : {
+        "heading" : "Набор бокалов для красного вина серия Frau, SCHOTT ZWIESEL",
+        "ImgHref" : "/product-1/prev.jpg",
+        "price" : "635",
+        "avialiability" : "true",
+        "info" : {
+            "material" : {
+                "key" : "материал:",
+                "val" : "хрустальное стекло"
+            },
+            "height" : {
+                "key" : "высота:",
+                "val" : "22.9 см"
+            },
+            "diameter" : {
+                "key" : "диаметр:",
+                "val" : "9.1 см"
+            },
+            "appointment" : {
+                "key" : "назначение:",
+                "val" : "для красного вина"
+            }
+        }
+    },
+    "product-6" : {
+        "heading" : "Набор бокалов для красного вина серия Frau, SCHOTT ZWIESEL",
+        "ImgHref" : "/product-2/prev.jpg",
+        "price" : "635",
+        "avialiability" : "true",
+        "info" : {
+            "material" : {
+                "key" : "материал:",
+                "val" : "хрустальное стекло"
+            },
+            "height" : {
+                "key" : "высота:",
+                "val" : "22.9 см"
+            },
+            "diameter" : {
+                "key" : "диаметр:",
+                "val" : "9.1 см"
+            },
+            "appointment" : {
+                "key" : "назначение:",
+                "val" : "для красного вина"
+            }
+        }
+    },
+    "product-7" : {
+        "heading" : "Набор бокалов для красного вина серия Frau, SCHOTT ZWIESEL",
+        "ImgHref" : "/product-3/prev.jpg",
+        "price" : "635",
+        "avialiability" : "true",
+        "info" : {
+            "material" : {
+                "key" : "материал:",
+                "val" : "хрустальное стекло"
+            },
+            "height" : {
+                "key" : "высота:",
+                "val" : "22.9 см"
+            },
+            "diameter" : {
+                "key" : "диаметр:",
+                "val" : "9.1 см"
+            },
+            "appointment" : {
+                "key" : "назначение:",
+                "val" : "для красного вина"
+            }
+        }
+    },
+    "product-8" : {
+        "heading" : "Набор бокалов для красного вина серия Frau, SCHOTT ZWIESEL",
+        "ImgHref" : "/product-4/prev.jpeg",
+        "price" : "635",
+        "avialiability" : "true",
+        "info" : {
+            "material" : {
+                "key" : "материал:",
+                "val" : "хрустальное стекло"
+            },
+            "height" : {
+                "key" : "высота:",
+                "val" : "22.9 см"
+            },
+            "diameter" : {
+                "key" : "диаметр:",
+                "val" : "9.1 см"
+            },
+            "appointment" : {
+                "key" : "назначение:",
+                "val" : "для красного вина"
+            }
+        }
+    }
+}
