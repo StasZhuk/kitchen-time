@@ -2,37 +2,6 @@
     padding: 0;
     margin-top: -30px;    
 }
-.pic-menu__line {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.pic-menu__left,
-.pic-menu__right {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 49.5%;
-}
-
-.pic-menu__50 {
-    display: flex;
-    justify-content: space-between;
-    width: 49%;
-    flex-shrink: 0;
-}
-.pic-menu__100 {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    flex-shrink: 0;
-}
-
-.pic-menu__25 {
-    width: 49%;
-    flex-shrink: 0;
-}
 
 .pic-menu__item {
     position: relative;

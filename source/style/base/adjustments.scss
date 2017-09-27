@@ -99,6 +99,25 @@ section {
     @include col();
 }
 
+.cont__line {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cont__50 {
+    display: flex;
+    justify-content: space-between;
+    width: 49.5%;
+    flex-wrap: wrap;
+}
+
+.cont__25 {
+    display: flex;
+    width: 49%;
+}
+
 .btn {
     $height: 50px;
     display: inline-block;
@@ -132,7 +151,8 @@ section {
     margin-bottom: 30px;
     font-family: 'robotobold', sans-serif;
     font-size: 3.2rem;  
-    text-align: center;  
+    text-align: center; 
+    color: $black; 
 
     &.section__heading--white {
         color: $white;
