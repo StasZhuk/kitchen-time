@@ -1,0 +1,8 @@
+section.promo
+    .container
+        h2.section__heading Акции
+        .promo-news-wrap
+            each product in promo
+                include ../../common/_product-news-prev
+        .btn-wrap__center
+            a(href="javascript:void(0);").btn.btn--black Все Акции

@@ -9,6 +9,10 @@ module.exports = function() {
            indexSlider: JSON.parse($.fs.readFileSync('./data/index/slider.json', 'utf-8')),
            productPrev: JSON.parse($.fs.readFileSync('./data/modules/product-prev.json', 'utf-8')),
            content: JSON.parse($.fs.readFileSync('./data/content.json', 'utf-8')),
+           popular: JSON.parse($.fs.readFileSync('./data/index/popular.json', 'utf-8')),
+           promo: JSON.parse($.fs.readFileSync('./data/promo-news/promo.json', 'utf-8')),
+           news: JSON.parse($.fs.readFileSync('./data/promo-news/news.json', 'utf-8')),
+           dontMiss: JSON.parse($.fs.readFileSync('./data/modules/dont-miss.json', 'utf-8'))
           },
         pretty: true 
       }))

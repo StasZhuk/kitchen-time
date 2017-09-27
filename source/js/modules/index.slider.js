@@ -28,6 +28,19 @@ module.exports = function() {
                 nextArrow: ".recommended-slider__arrow-next"
             });
 
+            // DONT-MISS SlIDER
+            $('.js-dont-miss-slider').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: true,
+                appendDots: '.dont-miss-slider__dots',
+                customPaging : function() {
+                    return '<a class="dont-miss-slider__dot"></a>';
+                },
+                prevArrow: ".dont-miss-slider__arrow-prev",
+                nextArrow: ".dont-miss-slider__arrow-next"
+            });
+
             // DOTS SLIDER POSITIONER
             function indexSliderPosElem(elem, pos) {
                 var windowWidth = $(window).width();
@@ -48,4 +61,15 @@ module.exports = function() {
                 indexSliderPosElem('.index-slider__controls', 'right');           
             });
         });
+
+        //video-review
+        
+        $('.video-start').click(function() {
+            let videoId = $(this).parent().parent().data('video-id'),
+                videoPlayer = $('this').parent().parent().attr('id');
+
+            player = new YT.Player(videoPlayer, {
+                videoId: videoId
+            });
+        })
 }

@@ -1,0 +1,34 @@
+.promo-news-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.promo-item__image {
+    width: 100%;
+    height: 230px;
+    margin-bottom: 20px;
+}
+
+.promo-item {
+    width: 24.3%;
+}
+
+.promo-item__content-wrap {
+    padding-right: 40px;
+}
+
+.promo-item__data {
+    display: block;
+    color: $acsent;
+    margin-bottom: 10px;
+}
+
+.promo-item__heading {
+    margin-bottom: 10px;
+}
+
+.promo-item__content {
+    color: $black;
+    line-height: 1.4;
+}

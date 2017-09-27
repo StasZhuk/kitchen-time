@@ -79,6 +79,7 @@ svg {
 
 section {
     position: relative;
+    padding: 60px 0; 
 }
 
 .container {
@@ -107,6 +108,24 @@ section {
     background-color: $white;
     text-transform: uppercase;
     text-decoration: underline;
+    cursor: pointer;
+    &.btn--black {
+        color: $white;
+        background-color: $btn-product;
+    }
+    &.btn--nounder {
+        text-decoration: none;
+    }  
+}
+
+.item__bottom-nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    text-align: left;
+    background-color: $btn-product;
 }
 
 .section__heading {
@@ -119,3 +138,13 @@ section {
         color: $white;
     }
 }
+
+.btn-wrap__center {
+    text-align: center
+}
+
+// Стили Promo или Акции
+@import './modules/promo-news-prev.scss';
+
+// Стили Promo или Акции
+@import './modules/forms.scss';

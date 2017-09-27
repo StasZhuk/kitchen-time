@@ -1,0 +1,10 @@
+section.popular
+    .container
+        h2.section__heading.section__heading--white Популярные бренды 
+        ul.popular-list
+            each country, name in popular
+                li.popular-list__item
+                    a(href="javascript:void(0);").popular-list__link= name
+                    span.popular-list__country= country
+        .btn-wrap__center
+            a(href="javascript:void(0);").btn Все бренды

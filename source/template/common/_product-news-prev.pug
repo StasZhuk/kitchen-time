@@ -1,0 +1,7 @@
+.promo-item
+    img(src= `assets/img/index/promoNews/${product['ImgHref']}`).promo-item__image
+    .promo-item__content-wrap
+        span.promo-item__data= product['data']
+        a(href="javascript:void(0);").promo-item__heading.product-prev__heading= product['heading']
+        if product['content']
+            p.promo-item__content= product['content']

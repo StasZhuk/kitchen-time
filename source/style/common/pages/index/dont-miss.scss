@@ -1,9 +1,4 @@
-.recommended {
-    padding-top: 80px;
-    padding-bottom: 50px;
-}
-
-.recommended-slider__dots {
+.dont-miss-slider__dots {
     position: relative;
     display: flex;
     justify-content: center;
@@ -21,12 +16,12 @@
 }
 
 .slick-active {
-    .recommended-slider__dot {
+    .dont-miss-slider__dot {
         background-color: $btn-product;
     }
 }
 
-.recommended-slider__dot {
+.dont-miss-slider__dot {
     display: block;
     width: 15px;
     height: 15px;
@@ -35,7 +30,7 @@
     cursor: pointer;     
 }
 
-.recommended-slider__arrow {
+.dont-miss-slider__arrow {
     background-color: $btn-product;
     border: 1px solid $black;
     @include elem-size(50px);
@@ -47,11 +42,11 @@
     }
 }
 
-.recommended-slider__arrow-prev {
+.dont-miss-slider__arrow-prev {
     order: 1;
     transform: rotate(90deg);
 }
-.recommended-slider__arrow-next {
+.dont-miss-slider__arrow-next {
     order: 3;
     transform: rotate(-90deg);
 }

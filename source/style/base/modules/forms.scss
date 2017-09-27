@@ -1,0 +1,13 @@
+.label {
+    color: $white;
+}
+.input {
+    $height: 50px;
+    height: $height;
+    line-height: $height; 
+    padding: 0 10px;
+    background-color: transparent;
+    border: 2px solid $white;
+    color: $white;
+}
+
