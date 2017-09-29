@@ -1,0 +1,130 @@
+.footer {
+    position: relative;
+    width: 100%;
+    padding: 50px 0;
+    background: url('../img/footer-bg.jpg') no-repeat center;
+    background-size: cover;
+    color: $white;
+
+    a {
+        color: $white;
+        text-decoration: underline;
+    }
+
+    .footer__contacts-phone {
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    &:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba($black, 0.9);
+    }
+
+    .nav-main {
+        border-bottom: 1px solid grey;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .icon {
+        fill: $white;
+    }
+}
+
+.footer__bottom-nav {
+    display: flex;
+}
+
+.footer__social {
+    margin-right: 30px;
+}
+
+.copyraight {
+    margin-bottom: 15px;
+}
+
+.icons-list--social {
+    width: 130px;
+    border: 2px solid $white;
+    margin-bottom: 40px;    
+    .icon-list__item {
+        border-right: 2px solid $white;
+    }
+    .icon-list__item:last-child {
+        border-right: none;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+}
+
+.footer__payments {
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.icons-list--payments {
+    flex-wrap: wrap;
+    width: 160px;
+    .icon-list__item:last-child {
+        border-right: none;
+    }
+
+    .icon {
+        width: 100px;
+        height: 60px;
+        margin-left: -20px;
+        margin-bottom: -15px;
+        fill: $white;
+        
+    }
+}
+
+.copyraight {
+    white-space: nowrap;
+}
+
+.footer__nav-list {
+    display: flex;
+    flex-direction: column;
+    width: 149px;
+    margin-left: 15px;
+}
+
+.footer__nav-item{
+    margin-bottom: 15px;    
+}
+
+.footer__form {
+    .input-email {
+        margin-right: 5px;
+        color: $white;
+    }
+    .btn {
+        line-height: inherit;
+    }
+}
+
+.footer__contacts {
+    margin-left: auto;    
+}
+
+.footer__contacts-line {
+    margin-bottom: 40px;
+}
+
+.footer__form-descr {
+    margin-bottom: 20px;
+}
+
+
+

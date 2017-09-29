@@ -11,3 +11,7 @@
     color: $white;
 }
 
+
+input::-moz-placeholder { color: $white; }
+input::-webkit-input-placeholder { color: $white; }
+

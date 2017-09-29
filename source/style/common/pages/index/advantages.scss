@@ -33,12 +33,12 @@
         .advantages__pic {
             right: 25px;
             &:after {
-                top: 40px;
-                left: -20px;
-                right: 0;
+                top: 5px;
+                left: 10px;
+                right: -35px;
                 bottom: 0;
                 background: url('../img/index/advantages/busines-card.png') no-repeat;
-                background-size: 105%;
+                background-size: 80%;
             }
         }
     }
@@ -85,7 +85,6 @@
     right: 35px;
     bottom: 25px;
     width: 40%;
-    padding: 40px; 
     &:after {
         content: '';
         position: absolute;

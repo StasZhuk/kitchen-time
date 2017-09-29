@@ -31,6 +31,7 @@ body {
 *::before {
     box-sizing: inherit;
 }
+
 *:focus {
     outline: none;
 }
@@ -79,7 +80,7 @@ svg {
 
 section {
     position: relative;
-    padding: 60px 0; 
+    padding: 60px 0;
 }
 
 .container {
@@ -134,7 +135,7 @@ section {
     }
     &.btn--nounder {
         text-decoration: none;
-    }  
+    }
 }
 
 .item__bottom-nav {
@@ -150,10 +151,9 @@ section {
 .section__heading {
     margin-bottom: 30px;
     font-family: 'robotobold', sans-serif;
-    font-size: 3.2rem;  
-    text-align: center; 
-    color: $black; 
-
+    font-size: 3.2rem;
+    text-align: center;
+    color: $black;
     &.section__heading--white {
         color: $white;
     }
@@ -163,8 +163,12 @@ section {
     text-align: center
 }
 
+.icons-list {
+    display: flex;
+}
+
+
 // Стили Promo или Акции
 @import './modules/promo-news-prev.scss';
-
 // Стили Promo или Акции
 @import './modules/forms.scss';

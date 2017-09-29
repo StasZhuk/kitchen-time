@@ -1,2 +1,67 @@
 footer.footer
-               
+    .container
+        include _menu
+        .footer__bottom-nav
+            .footer__social
+                .copyraight &copy 2016, КитченТайм.рф
+                ul.icons-list.icons-list--social
+                    li.icon-list__item
+                        +icon('fb')
+                    li.icon-list__item
+                        +icon('vk')
+                    li.icon-list__item
+                        +icon('inst')
+                    li.icon-list__item
+                        +icon('tw')
+                a(href="javascript:void(0);").site-rules Правила сайта
+            .footer__payments
+                .footer__payment-title Мы принимаем:
+                ul.icons-list.icons-list--payments
+                    li.icon-list__item
+                        +icon('money-1')
+                    li.icon-list__item
+                        +icon('webmoney')
+                    li.icon-list__item
+                        +icon('money-2')
+                    li.icon-list__item
+                        +icon('money-3')
+                    li.icon-list__item
+                        +icon('symbols')
+                    li.icon-list__item
+                        +icon('symbols-1')
+            ul.footer__nav-list
+                li.footer__nav-item
+                    a(href="javascript:void(0);").footer__nav__link Как заказать
+                li.footer__nav-item
+                    a(href="javascript:void(0);").footer__nav__link Оплата
+                li.footer__nav-item
+                    a(href="javascript:void(0);").footer__nav__link Доставка
+                li.footer__nav-item
+                    a(href="javascript:void(0);").footer__nav__link Статьи
+                li.footer__nav-item
+                    a(href="javascript:void(0);").footer__nav__link Видеообзоры
+            ul.footer__nav-list
+                li.footer__nav-item
+                    a(href="javascript:void(0);").footer__nav__link Бренды
+                li.footer__nav-item
+                    a(href="javascript:void(0);").footer__nav__link Возврат товара
+                li.footer__nav-item
+                    a(href="javascript:void(0);").footer__nav__link Новости магазина
+                li.footer__nav-item
+                    a(href="javascript:void(0);").footer__nav__link О магазине
+                li.footer__nav-item
+                    a(href="javascript:void(0);").footer__nav__link Контакты
+            .footer__contacts
+                .footer__contacts-line
+                    a(href="tel").footer__contacts-phone 8 800 123 45 67
+                    a(href="tel").footer__contacts-call Обратный звонок
+                form.footer__form
+                    .footer__form-content
+                        .footer__form-descr Подпишись на новинки, акции и новости
+                        .footer__line
+                            input(type="email", name="mail" placeholder="Ваш email").input.input-email
+                            input(type="submit", value="Подписаться").btn.btn--nounder  
+
+
+
+
